@@ -12,6 +12,7 @@
   position: relative;
 
   /*is used for clipping the background image into a polygon with 4 points*/
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 
   &__logo-box {
